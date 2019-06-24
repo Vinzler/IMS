@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    tools:context=".SubmitideaActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="204dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="3dp"
+        android:layout_marginRight="0dp"
+        android:src="@drawable/idea3" />
+
+    <Spinner
+        android:id="@+id/ideatype"
+        android:layout_width="373dp"
+        android:layout_height="63dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="219dp"
+        android:layout_marginRight="21dp"
+        android:background="@drawable/edittextbox"></Spinner>
+
+    <EditText
+        android:id="@+id/categorytext"
+        android:layout_width="wrap_content"
+        android:layout_height="61dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="294dp"
+        android:layout_marginRight="17dp"
+        android:background="@drawable/edittextbox"
+        android:hint="Enter the category to which idea belongs"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/ideatext"
+        android:layout_width="373dp"
+        android:layout_height="133dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="19dp"
+        android:layout_marginTop="375dp"
+        android:layout_marginRight="19dp"
+        android:background="@drawable/edittextbox"
+        android:hint="YOUR IDEA"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/ideasubmitbutton"
+        android:layout_width="370dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="21dp"
+        android:layout_marginTop="532dp"
+        android:layout_marginRight="20dp"
+        android:text="SUBMIT IDEA" />
+
+</RelativeLayout>

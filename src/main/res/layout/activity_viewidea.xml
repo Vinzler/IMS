@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ViewideaActivity">
+
+    <TextView
+        android:layout_width="127dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="89dp"
+        android:paddingTop="10dp"
+        android:text="SUBMITTER :"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="127dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="154dp"
+        android:paddingTop="10dp"
+        android:text="TYPE :"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="127dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="15dp"
+        android:layout_marginTop="219dp"
+        android:paddingTop="10dp"
+        android:text="CATEGORY :"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="127dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="285dp"
+        android:paddingTop="10dp"
+        android:text="IDEA :"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/submitterview"
+        android:layout_width="252dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="151dp"
+        android:layout_marginTop="90dp"
+        android:background="@drawable/itemback"
+        android:paddingTop="10dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/typeview"
+        android:layout_width="252dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="154dp"
+        android:layout_marginTop="155dp"
+        android:background="@drawable/itemback"
+        android:paddingTop="10dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/categoryview"
+        android:layout_width="380dp"
+        android:layout_height="112dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="17dp"
+        android:layout_marginTop="350dp"
+        android:background="@drawable/itemback"
+        android:paddingTop="10dp"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/ideaview"
+        android:layout_width="252dp"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="154dp"
+        android:layout_marginTop="216dp"
+        android:background="@drawable/itemback"
+        android:paddingTop="10dp"
+        android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/upvotebutton"
+        android:layout_width="106dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="154dp"
+        android:layout_marginTop="286dp"
+        android:background="@drawable/edittextbox"
+        android:drawableLeft="@drawable/rsz_upvote"
+        android:text="UPVOTE" />
+
+</RelativeLayout>

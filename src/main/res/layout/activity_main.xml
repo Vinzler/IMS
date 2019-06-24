@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/logintext"
+        android:layout_width="match_parent"
+        android:layout_height="107dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="3dp"
+        android:layout_marginTop="147dp"
+        android:paddingTop="20dp"
+        android:text="LOGIN"
+        android:textAlignment="center"
+        android:textSize="40sp" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="305dp"
+        android:layout_height="46dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="49dp"
+        android:layout_marginTop="282dp"
+        android:background="@drawable/edittextbox"
+        android:hint="Enter your email id"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/password"
+        android:layout_width="303dp"
+        android:layout_height="46dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="49dp"
+        android:layout_marginTop="365dp"
+        android:background="@drawable/edittextbox"
+        android:hint="Enter your password"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/loginbutton"
+        android:layout_width="303dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="49dp"
+        android:layout_marginTop="480dp"
+        android:text="LOGIN" />
+
+    <TextView
+        android:id="@+id/signuptext"
+        android:layout_width="match_parent"
+        android:layout_height="41dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="572dp"
+        android:text="    Not a user? Sign Up now!"
+        android:textAlignment="center"
+        android:paddingTop="8dp"
+        android:textSize="20sp" />
+
+    <ImageView
+        android:id="@+id/logoimage1"
+        android:layout_width="170dp"
+        android:layout_height="85dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="115dp"
+        android:layout_marginTop="42dp"
+        android:src="@drawable/logo" />
+
+</RelativeLayout>

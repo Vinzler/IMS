@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".SignupActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="0dp"
+        android:layout_marginTop="148dp"
+        android:layout_marginRight="0dp"
+        android:text="SIGN UP"
+        android:textAlignment="center"
+        android:textSize="40dp" />
+
+    <EditText
+        android:id="@+id/newemail"
+        android:layout_width="278dp"
+        android:layout_height="52dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="66dp"
+        android:layout_marginTop="234dp"
+        android:layout_marginRight="67dp"
+        android:background="@drawable/edittextbox"
+        android:hint="Enter email"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/newpassword"
+        android:layout_width="wrap_content"
+        android:layout_height="50dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="66dp"
+        android:layout_marginTop="324dp"
+        android:layout_marginRight="67dp"
+        android:background="@drawable/edittextbox"
+        android:hint="Enter password"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/name"
+        android:layout_width="278dp"
+        android:layout_height="52dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="69dp"
+        android:layout_marginTop="410dp"
+        android:layout_marginRight="64dp"
+        android:background="@drawable/edittextbox"
+        android:hint="Enter name"
+        android:textAlignment="center" />
+
+    <EditText
+        android:id="@+id/designation"
+        android:layout_width="278dp"
+        android:layout_height="52dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="66dp"
+        android:layout_marginTop="487dp"
+        android:layout_marginRight="67dp"
+        android:background="@drawable/edittextbox"
+        android:hint="Enter designation"
+        android:textAlignment="center" />
+
+    <Button
+        android:id="@+id/signupbutton"
+        android:layout_width="275dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="65dp"
+        android:layout_marginTop="565dp"
+        android:text="SIGNUP" />
+
+    <ImageView
+        android:layout_width="151dp"
+        android:layout_height="104dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="123dp"
+        android:layout_marginTop="33dp"
+        android:layout_marginRight="137dp"
+        android:src="@drawable/logo" />
+
+</RelativeLayout>
